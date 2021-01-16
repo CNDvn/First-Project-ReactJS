@@ -1,0 +1,36 @@
+.cluster-detail{
+    display: flex;
+    height: 70px;
+}
+
+.cluster-image{
+    /* flex:10%; */
+    padding: 10px;
+}
+
+.cluster-image img{
+    width: 50%;
+    /* margin: auto; */
+    margin: auto 15px 0;
+}
+
+.cluster-info{
+    margin:auto 10px ;
+}
+.cluster-detail span{
+    display: inline-block;
+}
+.cluster-address{
+    width: 100%;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.see-cluster-info-detail a{
+    color: #fb4226;
+}
+.see-cluster-info-detail a:hover{
+    text-decoration: none;
+}
