@@ -1,9 +1,29 @@
-import React from "react";
+import React, {useEffect} from "react";
 import PropTypes from "prop-types";
 import Movie from "../Movie/Movie";
 import "./ShowTimes.css";
+import Axios from 'axios'
+import Action from '../../../redux/typeAction'
+import {connect} from 'react-redux'
+
+
+
+
+
 
 function ShowTimes(props) {
+  const date = Date.UTC();
+  useEffect(()=>{
+    Axios({
+      url: `https://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayDanhSachPhimTheoNgay?maNhom=GP01&soTrang=1&soPhanTuTrenTrang=10&tuNgay=18%2F01%2F2021&denNgay=20%2F05%2F2021`,
+      method: "GET"
+      }).then(res => {
+          console.log(res);
+      }).catch(err=>{
+          console.log(err);
+      })
+    }, [])
+
   return (
     <div>
       {/* navbar */}
@@ -113,4 +133,8 @@ function ShowTimes(props) {
 
 ShowTimes.propTypes = {};
 
-export default ShowTimes;
+const mapStateToProps = state =>({
+  
+})
+
+export default connect(mapStateToProps)(ShowTimes)
