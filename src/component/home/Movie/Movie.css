@@ -1,0 +1,50 @@
+.card{
+    position: relative;
+    border: none;
+}
+.card:hover{
+    cursor: pointer;
+}
+.info-movie{
+    position: relative;
+}
+.play-movie{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+    top:0;
+    display: none;
+}
+.card:hover .play-movie{
+    display: block;
+}
+.card-rate{    
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+
+    text-align: center;
+}
+.btn-ticket{
+    width: 100%;
+    height: 40px;
+    margin-top: 10%;
+    background-color: red;
+    border: red;
+    border-radius: 5px;
+    display: none;
+}
+.card:hover .card-hide{
+    display: none;
+}
+.card:hover .btn-ticket{
+    display: block;
+    cursor: pointer;
+}

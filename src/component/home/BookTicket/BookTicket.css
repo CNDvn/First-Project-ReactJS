@@ -1,0 +1,32 @@
+
+.ticket-info{
+    display: flex;
+}
+
+.show-time{
+    color:#9b9b9b;
+}
+.show-time:hover{
+    text-decoration: none;
+    color:#9b9b9b;
+}
+  
+.time-detail{
+    width: 120px;
+    color: #9b9b9b;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #9b9b9b;
+    border-radius: 10px;
+    margin: 5px;
+}
+.time-detail-begin{
+  color: #108f3e;
+}
+.time-detail:hover{
+    color: #9b9b9b;
+    text-decoration: none;
+}
+.time-detail:hover .time-detail-begin{
+  color: #fb4226;
+}

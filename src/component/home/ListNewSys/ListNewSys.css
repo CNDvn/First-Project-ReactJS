@@ -1,0 +1,37 @@
+.list-news-Sys{
+    width: 70%;
+    margin: auto;
+}
+
+.nav-news{
+    margin-bottom: 10px;
+}
+
+.see-more-news{
+    width: 150px;
+    margin: 80px auto 10px auto;
+    
+}
+
+.btn-see-more-news{
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.btn-see-more-news:hover{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #fb4226;
+    border-radius: 10px;
+    line-height: 40px;
+    background-color: #fb4226;
+    cursor: pointer;
+}
+.btn-see-more-news:focus{
+    outline: none;
+}

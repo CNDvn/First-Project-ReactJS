@@ -1,0 +1,30 @@
+.cover-system{
+    height: 700px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.cinema-sys{
+    flex: 10%;
+    height: 700px;
+    overflow: auto;
+    margin-right: 10px;
+}
+.cinema-sys ul{
+    list-style: none;
+}
+.clusters{
+    flex: 35%;
+    height: 700px;
+    overflow: auto;
+}
+
+.book-ticket{
+    flex:55%;
+    overflow: auto;
+}
+
+.book-id{
+    margin-bottom: 15px;
+}
