@@ -1,0 +1,16 @@
+
+
+li{
+    list-style: none;
+}
+.signin{
+    display: flex;
+}
+.form-inline{
+    display:flex;
+}
+.Logo{
+    left: 20px;
+    
+    width: 50px;
+}
