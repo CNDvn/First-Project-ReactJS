@@ -30,8 +30,6 @@ export default class FilterBookTicket extends Component {
                                         </div></div>
                                     </div>
                                 </div>
-                           
-                        
                     </div>
                 </div></div>
 
