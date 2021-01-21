@@ -7,7 +7,11 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+<<<<<<< HEAD
     "axios": "^0.21.1",
+=======
+    "bootstrap": "^4.5.3",
+>>>>>>> b42b29f4082dcbc7e081580ab57f18617ff13cbf
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.1.3",

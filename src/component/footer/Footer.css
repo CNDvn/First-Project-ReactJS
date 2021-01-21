@@ -1,0 +1,64 @@
+#footer{
+    background-color: #222;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    color: #949494;
+}
+.div{
+    display: block;
+}
+.iconConnect{
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    border-radius: 50%;
+}   
+footer .textCenter {
+    text-align: center;
+}
+
+.iconApp{
+   
+    width: 30px;
+    background: 0 0;
+    height: 30px;
+    width: auto;
+    margin: 5px;
+}
+
+
+#footer .fontSizeP a {
+    font-size: 12px!important;
+    font-size: 80%;
+    font-weight: 700;
+    white-space: nowrap;
+    color: #949494;
+    display: block;
+    transition: all .2s;
+    line-height: 2.3;
+}
+
+.col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+#footer .imgBoCo {
+    width: 130px;
+    float: right;
+}
+#footer .vngIcon {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+}
+.mainMaxWidth {
+    max-width: 940px;
+    float: none;
+    margin: auto;
+    clear: both;
+}

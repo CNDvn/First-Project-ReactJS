@@ -1,0 +1,38 @@
+#homeApp {
+    padding: 110px 10px 60px 120px;
+    background: url('../../../img/backapp.jpg');
+    background-size: contain;
+    height: 900px;
+}
+
+
+.col-xs-12{
+    width: 100%;
+}
+.phone-img{
+    height: 80%;
+}
+.textLeft{
+    color: aliceblue;
+
+}
+
+.buttonLeft{
+    background-color: #fb4226;
+    padding: 10px 20px;
+    color: #ffff;
+    font-size: medium;
+    
+}
+
+.textSmallLeft{
+    color: #ffff;
+    font-size: medium;
+}
+
+#homeApp .textLeft {
+    color: #fff;
+    font-weight: 700;
+    font-size: xx-large;
+}
+

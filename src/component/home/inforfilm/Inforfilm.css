@@ -1,0 +1,41 @@
+.Menu_infor{
+background-color: red;
+}
+.phim{
+    height: 20px;
+    width: 100px;
+} 
+ #homeTools .widthByPercent {
+    width: 20%;
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+#homeTools .w30p {
+    width: 30%;
+}
+
+
+div{
+    display: block;
+}
+
+#homeTools {
+    display: block;
+    max-width: 940px;
+    margin: auto;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    z-index: 2;
+    transform: translate(-50%,50%);
+}
+
