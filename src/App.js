@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-<<<<<<< HEAD
-import Home from './component/home/Home/Home';
-=======
-import Home from './component/home/Home';
->>>>>>> b42b29f4082dcbc7e081580ab57f18617ff13cbf
+import Home from './component/home/Home/Home.jsx';
+import Navbar from './component/home/navbar/Navbar.jsx'
+import Footer from './component/footer/Footer.jsx'
 
 function App() {
   return (
     <>
+      <Navbar/>
       <Home/>
+      <Footer/>
     </>
   );
 }

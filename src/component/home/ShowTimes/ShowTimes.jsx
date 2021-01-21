@@ -6,11 +6,6 @@ import Axios from 'axios'
 import Action from '../../../redux/typeAction'
 import {connect} from 'react-redux'
 
-
-
-
-
-
 function ShowTimes(props) {
   const date = Date.UTC();
   useEffect(()=>{

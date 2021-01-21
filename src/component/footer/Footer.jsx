@@ -10,7 +10,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
-                <div className="col-xs-12 block ng-scope" id="footer" ng-if="!isHideFooter">
+                <div className="col-12 block ng-scope" id="footer" ng-if="!isHideFooter">
                     <div className="mainMaxWidth">
                         <div className="row">
                             <div className="col-sm-4 col-xs-12">
