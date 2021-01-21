@@ -48,6 +48,7 @@ export default class inforfilm extends Component {
 
             //     </div>
             <div id="homeTools" className="hideOnMobile  d-flex justify-content-md-center flex-row">
+                <h1>hello</h1>
                 <div className="w20p widthByPercent dropdown selectFilm p-2" id="selectMoive">
                     <div className="dropdown-toggle selectMenu white ng-binding" ng-click="onClickHomeToolsMenu($event)" data-toggle="dropdown">Phim</div>
                     <ul className="dropdown-menu selectScroll">
