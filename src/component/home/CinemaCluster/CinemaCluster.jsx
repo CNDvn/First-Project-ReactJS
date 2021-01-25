@@ -7,7 +7,7 @@ import BookTicket from "../BookTicket/BookTicket";
 
 function CinemaCluster(props) {
   return (
-    <div className="cover-system">
+    <div className="row cover-system">
       <div className="cinema-sys">
         <ul>
           <CinemaSys/> <hr/>
@@ -24,21 +24,28 @@ function CinemaCluster(props) {
           <CinemaSys/> <hr/>
         </ul>
       </div>
-      <div className="clusters">
+      <div className="col-sm clusters">
+          <div className="clusters-info"><ClusterForSys/></div><hr/>
+          <div className="clusters-info"><ClusterForSys/></div><hr/>
+          <div className="clusters-info"><ClusterForSys/></div><hr/>
+          <div className="clusters-info"><ClusterForSys/></div><hr/>
+          <div className="clusters-info"><ClusterForSys/></div><hr/>
+          <div className="clusters-info"><ClusterForSys/></div><hr/>
+          <div className="clusters-info"><ClusterForSys/></div><hr/>
           <div className="clusters-info"><ClusterForSys/></div><hr/>
           <div className="clusters-info"><ClusterForSys/></div><hr/>
           <div className="clusters-info"><ClusterForSys/></div><hr/>
       </div>
-      <div className="book-ticket">
+      <div className="col-sm book-ticket">
         {
-          test()
+          loadBookTicket()
         }
       </div>
     </div>
   );
 }
 
-function test(){
+function loadBookTicket(){
   let arr = [];
   for(let i=0; i<5;i++){
     arr.push(<div className="book-id">

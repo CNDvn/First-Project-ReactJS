@@ -44,56 +44,56 @@ function ShowTimes(props) {
           <div className="carousel-inner slider-inner">
             <div className="carousel-item active" data-interval={10000}>
               <div className="row">
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
               </div>
             </div>
             <div className="carousel-item" data-interval={2000}>
               <div className="row">
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
-                <div className="col-3">
+                <div className="col-xm col-movie">
                   <Movie />
                 </div>
               </div>
